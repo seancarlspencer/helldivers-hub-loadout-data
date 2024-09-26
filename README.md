@@ -26,7 +26,7 @@ Each Category has their own formatting of how to structure each Object.  Improve
 
 ### Primary Weaponry
 
-```
+```json
 {
     "name": "Gun Name", //String
     "description": "", //String
