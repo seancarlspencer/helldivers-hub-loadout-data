@@ -23,20 +23,31 @@ Each Category has their own formatting of how to structure each Object.  Improve
 ### Overarching rules
 
 - Infinity is usually represented by "-1"
+- New additions must always go on the bottom of their respective lists
+- Universal Formatting
+  - **name:** String simplified name of the item/stratagem, etc. E.g. "Machine Gun"
+  - **descriptive-name:** String full name of item.  E.g. "MG-43 Machine Gun"
+  - **stats:** Object containing any number of key value pairs.  The key is the String name of the stat.  The value is the Integer value of the stat.
+  - **traits:** String with comma-separated values for any number of traits.
+  - **price:** Integer price as it appears on that page of the warbond for that corresponding currency.
+  - **warbond:** String name of the Warbond where this item is located.
+  - **page:** Integer representing the page of the Warbond within which this item is found
+  - **level:** Integer representing unlock level
+  - **premium:** Boolean indicating whether or not this is locked behind a premium warbond.
 
 ### Primary Weaponry
 
 ```json
 {
-    "name": "Gun Name", //String
-    "description": "", //String
-    "category": "primary", //String. always primary
-    "sub-category": "Gun Type (Special, Shotgun, etc.)", //String
-    "stats": { "damage": 999, "capacity": 999, "recoil": 999 }, //Object of String : Integer
-    "traits": "Comma-separated traits, e.g. Medium Armor Penetrating,Incendiary",
-    "price": 40, //Integer
-    "warbond": "Freedom's Flame", //String
-    "premium": true, //Boolean
-    "page": 2 //Integer
+  "name": "FLAM-66 Torcher",
+  "description": "",
+  "category": "primary",
+  "sub-category": "Special",
+  "stats": { "damage": 250, "capacity": 80, "recoil": 3 },
+  "traits": "Medium Armor Penetrating,Incendiary",
+  "price": 40,
+  "warbond": "Freedom's Flame",
+  "premium": true,
+  "page": 2
 }
 ```
