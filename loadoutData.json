@@ -1709,7 +1709,7 @@
     {
       "name": "Liquid-Ventilated Cockpit",
       "category": "Hangar",
-      "effect": "",
+      "effect": "test",
       "stratagems": "Eagle",
       "sub-category": "",
       "price": [80, 0, 0]
