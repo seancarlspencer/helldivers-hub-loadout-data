@@ -1,9 +1,8 @@
 # Helldivers Hub Loadout Data
----
 ## Purpose
 
 Keep up-to-date stats and item for Helldivers-Hub.com and any other site that wishes to utilizes this information.
----
+
 ## Categories
 ```
 Primary Weaponry
@@ -15,7 +14,6 @@ Stratagems
 Boosters
 Ship Modules (Not in use)
 ```
----
 ## Formatting Guide
 
 Each Category has their own formatting of how to structure each Object.  Improvements and adjustments are welcome as considerations, but may not be implemented (on the site) until the website accounts for these adjustments.
