@@ -1,7 +1,7 @@
 # Helldivers Hub Loadout Data
 ## Purpose
 
-Keep up-to-date stats and item for Helldivers-Hub.com and any other site that wishes to utilizes this information.
+Keep up-to-date stats and item for [Helldivers-Hub.com](https://helldivers-hub.com/) and any other site that wishes to utilizes this information.
 
 ## Categories
 ```
