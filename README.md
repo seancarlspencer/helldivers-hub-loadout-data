@@ -37,6 +37,7 @@ Each Category has their own formatting of how to structure each Object.  Improve
 
 ### Primary Weaponry
 
+Example:
 ```json
 {
   "name": "FLAM-66 Torcher",
@@ -51,3 +52,109 @@ Each Category has their own formatting of how to structure each Object.  Improve
   "page": 2
 }
 ```
+---
+### Secondary Weaponry
+
+Example:
+```json
+{
+  "name": "P-2 Peacemaker",
+  "description": "",
+  "category": "secondary",
+  "sub-category": "pistol",
+  "stats": { "damage": 60, "capacity": 15, "recoil": 23, "fire rate": 900 },
+  "traits": "Light Armor Penetrating,One Handed",
+  "price": 0,
+  "warbond": "None",
+  "premium": false,
+  "page": 0
+}
+```
+---
+### Armor Passives
+
+Example:
+```json
+{
+  "passive": "Democracy Protects",
+  "passive-description": "50% less chance of getting killed by lethal damage and prevents bleeding from chest hemorrhages"
+},
+```
+---
+### Armor Types
+
+Example:
+```json
+["light", "medium", "heavy"]
+```
+---
+### Grenades
+
+Example:
+```json
+{
+  "name": "G-12 High Explosive",
+  "description": "",
+  "category": "",
+  "stats": {
+    "damage": 400,
+    "penetration": 4,
+    "outer radius": 7,
+    "fuse time": 3.5
+  },
+  "traits": "",
+  "price": 0,
+  "warbond": "None",
+  "premium": false,
+  "page": 0
+}
+```
+---
+### Stratagems
+
+Example:
+```json
+{
+  "name": "Machine Gun",
+  "descriptive-name": "MG-43 Machine Gun",
+  "description": "A machine gun designed for stationary use. Trades higher power for increased recoil and reduced accuracy.",
+  "category": "Patriotic Administration Center",
+  "sub-category": "Support Weapons",
+  "type": "Supply",
+  "price": 0,
+  "level": 1,
+  "code": "saswd",
+  "call-in-time": 3,
+  "uses": -1,
+  "cooldown-time": 480,
+  "traits": "Hellpod"
+}
+```
+---
+### Boosters
+
+Example:
+```json
+{
+  "name": "Hellpod Space Optimization",
+  "effect": "Helldivers come out of the Hellpod fully stocked on Ammo, Grenades, and Stims.",
+  "price": null,
+  "category": "Helldivers Mobilize!",
+  "premium": false
+}
+```
+---
+### Ship Modules [Not in use]
+
+Example:
+```json
+{
+  "name": "Donation Access License",
+  "category": "Patriotic Administration Center",
+  "effect": "Support Weapons deploy with the maximum number of carriable magazines",
+  "stratagems": "Support Weapons",
+  "sub-category": "",
+  "price": [60, 0, 0]
+}
+```
+---
