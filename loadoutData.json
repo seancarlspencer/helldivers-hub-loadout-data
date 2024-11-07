@@ -395,6 +395,36 @@
             "warbond": "None",
             "premium": false,
             "page": 0
+        },
+        {
+            "name": "SG-20 Halt",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Shotgun",
+            "stats": {
+                "damage (flechette)": 385,
+                "damage (stun)": 120,
+                "capacity": 16,
+                "recoil": 120,
+                "fire rate": 80
+            },
+            "traits": "Light Armor Penetrating,Medium Armor Penetrating,Rounds Reload",
+            "price": 20,
+            "warbond": "Truth Enforcers",
+            "premium": true,
+            "page": 1
+        },
+        {
+            "name": "SMG-32 Reprimand",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Submachine Gun",
+            "stats": { "damage": 125, "capacity": 25, "recoil": 44, "fire rate": 490 },
+            "traits": "Medium Armor Penetrating",
+            "price": 40,
+            "warbond": "Truth Enforcers",
+            "premium": true,
+            "page": 2
         }
     ],
     "Secondary Weaponry": [
@@ -520,6 +550,18 @@
             "warbond": "Chemical Agents",
             "premium": true,
             "page": 3
+        },
+        {
+            "name": "PLAS-15 Loyalist",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "special",
+            "stats": { "damage": 125, "capacity": 7, "recoil": 8, "fire rate": 1000 },
+            "traits": "Medium Armor Penetrating,One Handed,Chargeup,Explosive",
+            "price": 45,
+            "warbond": "Truth Enforcers",
+            "premium": true,
+            "page": 3
         }
     ],
     "Armor Passives": [
@@ -566,6 +608,10 @@
         {
             "passive": "Advanced Filtration",
             "passive-description": "Provides 80% resistance to gas damage and effects."
+        },
+        {
+            "passive": "Unflinching",
+            "passive-description": "Reduces the amount of aim punch from taking damage while firing a weapon by 95%, reducing the amount of camera shake along with it. Also decreases the amount of time required for your Helldiver to maniacly laugh while constinuously firing their weapon by 1 second."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -1666,6 +1712,13 @@
             "effect": "Lines all Hellpods with volatile incendiaries that detonate upon impact, igniting any units in vicinity of the drop site.",
             "price": 60,
             "category": "Freedom's Flame",
+            "premium": true
+        },
+        {
+            "name": "Dead Sprint",
+            "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
+            "price": 35,
+            "category": "Truth Enforcers",
             "premium": true
         }
     ],
