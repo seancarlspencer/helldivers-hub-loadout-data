@@ -586,6 +586,18 @@
             "warbond": "Urban Legends",
             "premium": true,
             "page": 1
+        },
+        {
+            "name": "Stun Baton",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 8 },
+            "traits": "Light Armor Penetrating,One Handed,Stun",
+            "price": 200,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
         }
     ],
     "Armor Passives": [
@@ -1704,6 +1716,36 @@
             "uses": -1,
             "cooldown-time": 180,
             "traits": "Hellpod,Heavy Armor Penetrating"
+        },
+        {
+            "name": "StA-X3 W.A.S.P. Launcher",
+            "descriptive-name": "StA-X3 W.A.S.P. Launcher",
+            "description": "A versatile missile launcher loaded with seven lock-on homing missiles. These can either be fired from the launcher directly or as an airburst. Includes support backpack required for reloading. Produced by Stal Arms.",
+            "category": "Patriotic Administration Center",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 12000,
+            "level": 20,
+            "code": "sswsd",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Anti-Tank,Stationary Reload"
+        },
+        {
+            "name": "Fast Recon Vehicle",
+            "descriptive-name": "M-102 Fast Recon Vehicle",
+            "description": "A lightly-armored reconnaissance vehicle mounted with a heavy machinegun.",
+            "category": "Hangar",
+            "sub-category": "Vehicle",
+            "type": "Supply",
+            "price": 25000,
+            "level": 20,
+            "code": "asdsdsw",
+            "call-in-time": 10.5,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": ""
         }
     ],
     "Boosters": [
