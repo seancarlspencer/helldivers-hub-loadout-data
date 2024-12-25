@@ -188,7 +188,7 @@
             "name": "AR-23E Liberator Concussive",
             "description": "",
             "category": "primary",
-            "sub-category": "Assault RIfle",
+            "sub-category": "Assault Rifle",
             "stats": { "damage": 55, "capacity": 30, "recoil": 28, "fire rate": 320 },
             "traits": "Light Armor Penetrating",
             "price": 20,
@@ -306,7 +306,7 @@
             "name": "AR-61 Tenderiser",
             "description": "",
             "category": "primary",
-            "sub-category": "Assault RIfle",
+            "sub-category": "Assault Rifle",
             "stats": { "damage": 60, "capacity": 35, "recoil": 10, "fire rate": 600 },
             "traits": "Light Armor Penetrating",
             "price": 20,
@@ -347,7 +347,7 @@
             "name": "AR-23A Liberator Carbine",
             "description": "",
             "category": "primary",
-            "sub-category": "Assault RIfle",
+            "sub-category": "Assault Rifle",
             "stats": { "damage": 60, "capacity": 45, "recoil": 26, "fire rate": 920 },
             "traits": "Light Armor Penetrating",
             "price": 20,
@@ -425,6 +425,18 @@
             "warbond": "Truth Enforcers",
             "premium": true,
             "page": 2
+        },
+        {
+            "name": "StA-52 Assault Rifle",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Assault Rifle",
+            "stats": { "damage": 70, "capacity": 56, "recoil": 19, "fire rate": 790 },
+            "traits": "Light Armor Penetrating",
+            "price": 615,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
         }
     ],
     "Secondary Weaponry": [
@@ -562,6 +574,18 @@
             "warbond": "Truth Enforcers",
             "premium": true,
             "page": 3
+        },
+        {
+            "name": "CQC-19 Stun Lance",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 8 },
+            "traits": "Light Armor Penetrating,One Handed,Stun",
+            "price": 30,
+            "warbond": "Urban Legends",
+            "premium": true,
+            "page": 1
         }
     ],
     "Armor Passives": [
@@ -612,6 +636,14 @@
         {
             "passive": "Unflinching",
             "passive-description": "Reduces the amount of aim punch from taking damage while firing a weapon by 95%, reducing the amount of camera shake along with it. Also decreases the amount of time required for your Helldiver to maniacly laugh while constinuously firing their weapon by 1 second."
+        },
+        {
+            "passive": "Acclimated",
+            "passive-description": "Provides 50% resistance to fire, gas, acid, and electrical damage."
+        },
+        {
+            "passive": "Siege-Ready",
+            "passive-description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of primary weapons by 20%."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -1627,6 +1659,51 @@
             "uses": -1,
             "cooldown-time": 300,
             "traits": "Explosive"
+        },
+        {
+            "name": "Directional Shield",
+            "descriptive-name": "SH-51 Directional Shield",
+            "description": "A one-handed device that deploys a wide energy barrier in front of the user. The barrier is semipermeable and blocks high-speed projectiles from the outside only, leaving the user free to shoot through it.",
+            "category": "Urban Legends",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "swadww",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 300,
+            "traits": "Hellpod"
+        },
+        {
+            "name": "Flame Sentry",
+            "descriptive-name": "A/FLAM-40 Flame Sentry",
+            "description": "An automated flamethrower turret. Warning: fuel canister prone to explosion when ruptured.",
+            "category": "Urban Legends",
+            "sub-category": "Sentry",
+            "type": "Defensive",
+            "price": 0,
+            "level": 0,
+            "code": "swdsww",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 150,
+            "traits": "Hellpod,Incendiary"
+        },
+        {
+            "name": "Anti-Tank Emplacement",
+            "descriptive-name": "E/AT-12 Anti-Tank Emplacement",
+            "description": "A powerful manned gun emplacement, capable of taking out armored targets at long ranges.",
+            "category": "Urban Legends",
+            "sub-category": "Emplacement",
+            "type": "Defensive",
+            "price": 0,
+            "level": 0,
+            "code": "swaddd",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 180,
+            "traits": "Hellpod,Heavy Armor Penetrating"
         }
     ],
     "Boosters": [
@@ -1719,6 +1796,13 @@
             "effect": "Allows Helldivers to keep sprinting even when they are out of stamina, draining their health instead.",
             "price": 35,
             "category": "Truth Enforcers",
+            "premium": true
+        },
+        {
+            "name": "Armed Resupply Pods",
+            "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
+            "price": 55,
+            "category": "Urban Legends",
             "premium": true
         }
     ],
