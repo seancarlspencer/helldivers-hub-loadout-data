@@ -437,6 +437,30 @@
             "warbond": "None",
             "premium": true,
             "page": 0
+        },
+        {
+            "name": "StA-11 SMG",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Submachine Gun",
+            "stats": { "damage": 65, "capacity": 48, "recoil": 13, "fire rate": 1050 },
+            "traits": "Light Armor Penetrating,One Handed",
+            "price": 0,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
+        },
+        {
+            "name": "PLAS-39 Accelerator Rifle",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Sniper Rifle",
+            "stats": { "damage": 350, "capacity": 9, "recoil": 3, "fire rate": 550 },
+            "traits": "Medium Armor Penetrating,Explosive",
+            "price": 0,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
         }
     ],
     "Secondary Weaponry": [
