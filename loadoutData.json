@@ -461,6 +461,18 @@
             "warbond": "None",
             "premium": true,
             "page": 0
+        },
+        {
+            "name": "LAS-17 Double-edge Sickle",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Energy",
+            "stats": { "damage": 55, "fire limit": 15, "recoil": 2, "fire rate": 700 },
+            "traits": "Light Armor Penetrating,Heat",
+            "price": 35,
+            "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 1
         }
     ],
     "Secondary Weaponry": [
@@ -622,6 +634,18 @@
             "warbond": "None",
             "premium": true,
             "page": 0
+        },
+        {
+            "name": "GP-31 Ultimatum",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "special",
+            "stats": { "damage": 4500, "capacity": 1, "recoil": 43, "fire rate": 900 },
+            "traits": "Medium Armor Penetrating,One Handed,Explosive",
+            "price": 40,
+            "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 2
         }
     ],
     "Armor Passives": [
@@ -680,6 +704,10 @@
         {
             "passive": "Siege-Ready",
             "passive-description": "Increases reload speed of primary weapons by 30%. Increases ammo capacity of primary weapons by 20%."
+        },
+        {
+            "passive": "Integrated Explosives",
+            "passive-description": "Armor explodes 1.5s after the wearer dies."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -838,6 +866,21 @@
             "warbond": "Chemical Agents",
             "premium": true,
             "page": 1
+        },
+        {
+            "name": "G-50 Seeker",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 400,
+                "penetration": 4,
+                "outer radius": 7
+            },
+            "traits": "Medium Armor Penetrating",
+            "price": 65,
+            "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 3
         }
     ],
     "Stratagems": [
@@ -1770,6 +1813,21 @@
             "uses": -1,
             "cooldown-time": 480,
             "traits": ""
+        },
+        {
+            "name": "Portable Hellbomb",
+            "descriptive-name": "B-100 Portable Hellbomb",
+            "description": "A backpack-mounted Hellbomb that can be armed by the wearer or an ally, starting a countdown. Users are recommended to remove the backpack before the countdown reaches zero.",
+            "category": "Servants of Freedom",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "sdwww",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 300,
+            "traits": "Hellpod,Explosive,Anti-tank"
         }
     ],
     "Boosters": [
