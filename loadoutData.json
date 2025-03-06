@@ -646,6 +646,18 @@
             "warbond": "Servants of Freedom",
             "premium": true,
             "page": 2
+        },
+        {
+            "name": "CQC-5 Combat Hatchet",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 8 },
+            "traits": "Light Armor Penetrating,One Handed",
+            "price": 200,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
         }
     ],
     "Armor Passives": [
@@ -1828,6 +1840,21 @@
             "uses": -1,
             "cooldown-time": 300,
             "traits": "Hellpod,Explosive,Anti-tank"
+        },
+        {
+            "name": "Gas Mines",
+            "descriptive-name": "MD-8 Gas Mines",
+            "description": "Deploys mines that release gas on activation, temporarily blinding and slowing most enemies.",
+            "category": "Engineering Bay",
+            "sub-category": "Emplacement",
+            "type": "Defensive",
+            "price": 12000,
+            "level": 20,
+            "code": "saad",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 120,
+            "traits": "Hellpod,Explosive,Caustic"
         }
     ],
     "Boosters": [
