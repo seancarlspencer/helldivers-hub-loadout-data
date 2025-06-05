@@ -384,6 +384,7 @@
             "premium": true,
             "page": 2
         },
+        
         {
             "name": "R-2124 Constitution",
             "description": "",
@@ -396,7 +397,6 @@
             "premium": false,
             "page": 0
         },
-        {
             "name": "SG-20 Halt",
             "description": "",
             "category": "primary",
@@ -473,6 +473,18 @@
             "warbond": "Servants of Freedom",
             "premium": true,
             "page": 1
+        },
+        {
+            "name": "R-2124 Constitution",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Marksman Rifle",
+            "stats": { "damage": 180, "capacity": 5, "recoil": 43, "fire rate": 60 },
+            "traits": "Medium Armor Penetrating,Rounds Reload",
+            "price": 0,
+            "warbond": "None",
+            "premium": false,
+            "page": 0
         }
     ],
     "Secondary Weaponry": [
@@ -644,6 +656,18 @@
             "traits": "Medium Armor Penetrating,One Handed,Explosive",
             "price": 40,
             "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 2
+        },
+        {
+            "name": "CQC-2 Saber",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 6 },
+            "traits": "Medium Armor Penetrating,One Handed",
+            "price": 40,
+            "warbond": "Masters of Ceremony",
             "premium": true,
             "page": 2
         }
@@ -879,6 +903,21 @@
             "traits": "Medium Armor Penetrating",
             "price": 65,
             "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "G-142 Pyrotech",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 50,
+                "penetration": 3,
+                "outer radius": 5
+            },
+            "traits": "Medium Armor Penetrating",
+            "price": 65,
+            "warbond": "Masters of Ceremony",
             "premium": true,
             "page": 3
         }
@@ -1347,6 +1386,22 @@
             "call-in-time": 3,
             "uses": -1,
             "cooldown-time": 150,
+            "traits": "Hellpod"
+        },
+        {
+            "name": "Grenadier Battlement",
+            "descriptive-name": "E/GL-21 Grenadier Battlement",
+            "name": "Grenadier Battlement",
+            "description": "A stationary ballistic cover with a mounted grenade launcher. Can protect multiple Helldivers from small arms fire.",
+            "category": "Bridge",
+            "sub-category": "Emplacement",
+            "type": "Defensive",
+            "price": 10000,
+            "level": 15,
+            "code": "sdsad",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 120,
             "traits": "Hellpod"
         },
         {
@@ -1828,6 +1883,21 @@
             "uses": -1,
             "cooldown-time": 300,
             "traits": "Hellpod,Explosive,Anti-tank"
+        },
+        {
+            "name": "One True Flag",
+            "descriptive-name": "CQC-1 One True Flag",
+            "description": "The eternal colors of Super Earth can never be tainted. Only quenched, by the blood of its enemies.",
+            "category": "Masters of Ceremony",
+            "sub-category": "Support Weapons",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "saddw",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Melee,One-Handed"
         }
     ],
     "Boosters": [
