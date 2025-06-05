@@ -397,6 +397,7 @@
             "premium": false,
             "page": 0
         },
+        {
             "name": "SG-20 Halt",
             "description": "",
             "category": "primary",
@@ -475,16 +476,16 @@
             "page": 1
         },
         {
-            "name": "R-2124 Constitution",
+            "name": "R-2 Amendment",
             "description": "",
             "category": "primary",
             "sub-category": "Marksman Rifle",
-            "stats": { "damage": 180, "capacity": 5, "recoil": 43, "fire rate": 60 },
-            "traits": "Medium Armor Penetrating,Rounds Reload",
-            "price": 0,
-            "warbond": "None",
-            "premium": false,
-            "page": 0
+            "stats": { "damage": 200, "capacity": 20, "recoil": 29, "fire rate": 480 },
+            "traits": "Light Armor Penetrating,Rounds Reload",
+            "price": 35,
+            "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 1
         }
     ],
     "Secondary Weaponry": [
@@ -732,6 +733,10 @@
         {
             "passive": "Integrated Explosives",
             "passive-description": "Armor explodes 1.5s after the wearer dies."
+        },
+        {
+            "passive": "Reinforced Epaulettes",
+            "passive-description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 50%."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
