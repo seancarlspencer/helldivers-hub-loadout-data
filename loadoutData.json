@@ -476,6 +476,18 @@
             "page": 1
         },
         {
+            "name": "R-6 Deadeye",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Marksman Rifle",
+            "stats": { "damage": 300, "capacity": 8, "recoil": 120, "fire rate": 100 },
+            "traits": "Medium Armor Penetrating,Rounds Reload",
+            "price": 35,
+            "warbond": "Borderline Justice",
+            "premium": true,
+            "page": 1
+        },
+        {
             "name": "R-2 Amendment",
             "description": "",
             "category": "primary",
@@ -661,6 +673,30 @@
             "page": 2
         },
         {
+            "name": "CQC-5 Combat Hatchet",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 8 },
+            "traits": "Light Armor Penetrating,One Handed",
+            "price": 200,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
+        },
+        {
+            "name": "LAS-58 Talon",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "special",
+            "stats": { "damage": 200, "fire limit": 1, "recoil": 2, "fire rate": 750 },
+            "traits": "Medium Armor Penetrating,One Handed,Heat",
+            "price": 40,
+            "warbond": "Borderline Justice",
+            "premium": true,
+            "page": 2
+        },
+        {
             "name": "CQC-2 Saber",
             "description": "",
             "category": "secondary",
@@ -733,6 +769,10 @@
         {
             "passive": "Integrated Explosives",
             "passive-description": "Armor explodes 1.5s after the wearer dies."
+        },
+        {
+            "passive": "Gunslinger",
+            "passive-description": "Increases sidearms reload speed by 40%.  Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%."
         },
         {
             "passive": "Reinforced Epaulettes",
@@ -908,6 +948,22 @@
             "traits": "Medium Armor Penetrating",
             "price": 65,
             "warbond": "Servants of Freedom",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "TED-63 Dynamite",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 700,
+                "penetration": 3,
+                "outer radius": 12,
+                "fuse time": 5.0
+            },
+            "traits": "Medium Armor Penetrating,Explosive",
+            "price": 65,
+            "warbond": "Borderline Justice",
             "premium": true,
             "page": 3
         },
@@ -1890,6 +1946,36 @@
             "traits": "Hellpod,Explosive,Anti-tank"
         },
         {
+            "name": "Gas Mines",
+            "descriptive-name": "MD-8 Gas Mines",
+            "description": "Deploys mines that release gas on activation, temporarily blinding and slowing most enemies.",
+            "category": "Engineering Bay",
+            "sub-category": "Emplacement",
+            "type": "Defensive",
+            "price": 12000,
+            "level": 20,
+            "code": "saad",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 120,
+            "traits": "Hellpod,Explosive,Caustic"
+        },
+        {
+            "name": "Hover Pack",
+            "descriptive-name": "Lift-860 Hover Pack",
+            "description": "Offers its user brief fixed-height flight, stable enough for pinpoint marksmanship.",
+            "category": "Borderline Justice",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "swwsad",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod"
+        },
+        {
             "name": "One True Flag",
             "descriptive-name": "CQC-1 One True Flag",
             "description": "The eternal colors of Super Earth can never be tainted. Only quenched, by the blood of its enemies.",
@@ -2002,6 +2088,13 @@
             "effect": "Mounts a modified AR-23 Liberator to all resupply pods, allowing them to double as automatic turrets.",
             "price": 55,
             "category": "Urban Legends",
+            "premium": true
+        },
+        {
+            "name": "Sample Extricator",
+            "effect": "Large enemies now have a small chance of dropping Samples on death. Capped at 10 drops per mission.",
+            "price": 65,
+            "category": "Borderline Justice",
             "premium": true
         }
     ],
