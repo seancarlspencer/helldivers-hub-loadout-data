@@ -397,6 +397,7 @@
             "premium": false,
             "page": 0
         },
+        {
             "name": "SG-20 Halt",
             "description": "",
             "category": "primary",
@@ -475,16 +476,28 @@
             "page": 1
         },
         {
-            "name": "R-2124 Constitution",
+            "name": "R-2 Amendment",
             "description": "",
             "category": "primary",
             "sub-category": "Marksman Rifle",
-            "stats": { "damage": 180, "capacity": 5, "recoil": 43, "fire rate": 60 },
-            "traits": "Medium Armor Penetrating,Rounds Reload",
-            "price": 0,
-            "warbond": "None",
-            "premium": false,
-            "page": 0
+            "stats": { "damage": 200, "capacity": 20, "recoil": 29, "fire rate": 480 },
+            "traits": "Light Armor Penetrating,Rounds Reload",
+            "price": 35,
+            "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 1
+        },
+        {
+            "name": "AR-32 Pacifier",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Assault Rifle",
+            "stats": { "damage": 50, "capacity": 40, "recoil": 11, "fire rate": 700 },
+            "traits": "Medium Armor Penetrating,Stun",
+            "price": 35,
+            "warbond": "Force of Law",
+            "premium": true,
+            "page": 1
         }
     ],
     "Secondary Weaponry": [
@@ -670,6 +683,23 @@
             "warbond": "Masters of Ceremony",
             "premium": true,
             "page": 2
+        },
+        {
+            "name": "P-92 Warrant",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "pistol",
+            "stats": {
+                "damage": 80,
+                "capacity": 13,
+                "recoil": 31,
+                "fire rate": 450
+            },
+            "traits": "Medium Armor Penetrating,One Handed,Guided",
+            "price": 300,
+            "warbond": "None",
+            "premium": true,
+            "page": 0
         }
     ],
     "Armor Passives": [
@@ -732,6 +762,14 @@
         {
             "passive": "Integrated Explosives",
             "passive-description": "Armor explodes 1.5s after the wearer dies."
+        },
+        {
+            "passive": "Reinforced Epaulettes",
+            "passive-description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 50%."
+        },
+        {
+            "passive": "Ballistic Padding",
+            "passive-description": "Provides +25% resistance to chest damage. Provides +25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -918,6 +956,21 @@
             "traits": "Medium Armor Penetrating",
             "price": 65,
             "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "G-109 Urchin",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 0,
+                "penetration": 6,
+                "outer radius": 4
+            },
+            "traits": "Stun",
+            "price": 65,
+            "warbond": "Force of Law",
             "premium": true,
             "page": 3
         }
@@ -1898,6 +1951,36 @@
             "uses": -1,
             "cooldown-time": 480,
             "traits": "Hellpod,Melee,One-Handed"
+        },
+        {
+            "name": "De-Escalator",
+            "descriptive-name": "GL-52 De-Escalator",
+            "description": "A humane grenade launcher firing high-powered arc grenades.",
+            "category": "Force of Law",
+            "sub-category": "Support Weapons",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "adwad",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 410,
+            "traits": "Hellpod,Explosive,Medium Armor Penetrating"
+        },
+        {
+            "name": "\"Guard Dog\" K-9",
+            "descriptive-name": "AX/ARC-3 \"Guard Dog\" K-9",
+            "description": "A humane, autonomous drone equipped with a modified Arc Thrower. Capable of projecting arcs of lightning through multiple targets. Does not need to recharge between shots.",
+            "category": "Force of Law",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "swawdd",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 456,
+            "traits": "Hellpod,Explosive,Medium Armor Penetrating"
         }
     ],
     "Boosters": [
