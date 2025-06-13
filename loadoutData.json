@@ -384,6 +384,7 @@
             "premium": true,
             "page": 2
         },
+        
         {
             "name": "R-2124 Constitution",
             "description": "",
@@ -483,6 +484,18 @@
             "traits": "Medium Armor Penetrating,Rounds Reload",
             "price": 35,
             "warbond": "Borderline Justice",
+            "premium": true,
+            "page": 1
+        },
+        {
+            "name": "R-2 Amendment",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Marksman Rifle",
+            "stats": { "damage": 200, "capacity": 20, "recoil": 29, "fire rate": 480 },
+            "traits": "Light Armor Penetrating,Rounds Reload",
+            "price": 35,
+            "warbond": "Masters of Ceremony",
             "premium": true,
             "page": 1
         }
@@ -682,6 +695,18 @@
             "warbond": "Borderline Justice",
             "premium": true,
             "page": 2
+        },
+        {
+            "name": "CQC-2 Saber",
+            "description": "",
+            "category": "secondary",
+            "sub-category": "melee",
+            "stats": { "recoil": 6 },
+            "traits": "Medium Armor Penetrating,One Handed",
+            "price": 40,
+            "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 2
         }
     ],
     "Armor Passives": [
@@ -748,6 +773,10 @@
         {
             "passive": "Gunslinger",
             "passive-description": "Increases sidearms reload speed by 40%.  Sidearm draw/holster speed increased by 50%. Sidearm recoil reduced by 70%."
+        },
+        {
+            "passive": "Reinforced Epaulettes",
+            "passive-description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 50%."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -935,6 +964,21 @@
             "traits": "Medium Armor Penetrating,Explosive",
             "price": 65,
             "warbond": "Borderline Justice",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "G-142 Pyrotech",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 50,
+                "penetration": 3,
+                "outer radius": 5
+            },
+            "traits": "Medium Armor Penetrating",
+            "price": 65,
+            "warbond": "Masters of Ceremony",
             "premium": true,
             "page": 3
         }
@@ -1403,6 +1447,22 @@
             "call-in-time": 3,
             "uses": -1,
             "cooldown-time": 150,
+            "traits": "Hellpod"
+        },
+        {
+            "name": "Grenadier Battlement",
+            "descriptive-name": "E/GL-21 Grenadier Battlement",
+            "name": "Grenadier Battlement",
+            "description": "A stationary ballistic cover with a mounted grenade launcher. Can protect multiple Helldivers from small arms fire.",
+            "category": "Bridge",
+            "sub-category": "Emplacement",
+            "type": "Defensive",
+            "price": 10000,
+            "level": 15,
+            "code": "sdsad",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 120,
             "traits": "Hellpod"
         },
         {
@@ -1914,6 +1974,21 @@
             "uses": -1,
             "cooldown-time": 480,
             "traits": "Hellpod"
+        },
+        {
+            "name": "One True Flag",
+            "descriptive-name": "CQC-1 One True Flag",
+            "description": "The eternal colors of Super Earth can never be tainted. Only quenched, by the blood of its enemies.",
+            "category": "Masters of Ceremony",
+            "sub-category": "Support Weapons",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "saddw",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Melee,One-Handed"
         }
     ],
     "Boosters": [
