@@ -384,7 +384,7 @@
             "premium": true,
             "page": 2
         },
-        
+
         {
             "name": "R-2124 Constitution",
             "description": "",
@@ -496,6 +496,30 @@
             "traits": "Light Armor Penetrating,Rounds Reload",
             "price": 35,
             "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 1
+        },
+        {
+            "name": "AR-32",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Assault Rifle",
+            "stats": { "damage": 50, "capacity": 40, "recoil": 14, "fire rate": 700 },
+            "traits": "Medium Armor Penetrating,Stun",
+            "price": 35,
+            "warbond": "Force of Law",
+            "premium": true,
+            "page": 1
+        },
+        {
+            "name": "VG-70 Variable",
+            "description": "",
+            "category": "primary",
+            "sub-category": "Special",
+            "stats": { "damage": 85, "capacity": 49, "recoil": 7, "fire rate": 550 },
+            "traits": "Light Armor Penetrating",
+            "price": 35,
+            "warbond": "Control Group",
             "premium": true,
             "page": 1
         }
@@ -777,6 +801,14 @@
         {
             "passive": "Reinforced Epaulettes",
             "passive-description": "Increases reload speed of primary weapons by 30%. Gives wearer a 50% chance to avoid grievous limb injury. Increases melee damage by 50%."
+        },
+        {
+            "passive": "Ballistic Padding",
+            "passive-description": "Provides 25% resistance to chest damage. Provides 25% resistance to explosive damage. Prevents all damage from bleeding if chest hemorrhages."
+        },
+        {
+            "passive": "Adreno-Defibrillator",
+            "passive-description": "Provides one-time, short-lived resuscitation upon death, given that the Helldiver's body is still intact. Increases stim effect duration by 2.0s. Provides 50%  resistance to arc damage."
         }
     ],
     "Armor Types": ["light", "medium", "heavy"],
@@ -979,6 +1011,36 @@
             "traits": "Medium Armor Penetrating",
             "price": 65,
             "warbond": "Masters of Ceremony",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "G-109 Urchin",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 0,
+                "penetration": 6,
+                "outer radius": 4
+            },
+            "traits": "Sticky,Stun",
+            "price": 65,
+            "warbond": "Force of Law",
+            "premium": true,
+            "page": 3
+        },
+        {
+            "name": "G-31 Arc",
+            "description": "",
+            "category": "",
+            "stats": {
+                "damage": 100,
+                "penetration": 4,
+                "outer radius": 10
+            },
+            "traits": "Explosive,Arc",
+            "price": 65,
+            "warbond": "Control Group",
             "premium": true,
             "page": 3
         }
@@ -1452,7 +1514,6 @@
         {
             "name": "Grenadier Battlement",
             "descriptive-name": "E/GL-21 Grenadier Battlement",
-            "name": "Grenadier Battlement",
             "description": "A stationary ballistic cover with a mounted grenade launcher. Can protect multiple Helldivers from small arms fire.",
             "category": "Bridge",
             "sub-category": "Emplacement",
@@ -1989,6 +2050,81 @@
             "uses": -1,
             "cooldown-time": 480,
             "traits": "Hellpod,Melee,One-Handed"
+        },
+        {
+            "name": "De-Escalator",
+            "descriptive-name": "GL-52 De-Escalator",
+            "description": "A humane grenade launcher firing high-powered arc grenades.",
+            "category": "Force of Law",
+            "sub-category": "Support Weapons",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Explosive,Medium Armor Penetrating"
+        },
+        {
+            "name": "\"Guard Dog\" K-9",
+            "descriptive-name": "AX/ARC-3 \"Guard Dog\" K-9",
+            "description": "A humane, autonomous drone equipped with a modified Arc Thrower. Capable of projecting arcs of lightning through multiple targets. Does not need to recharge between shots.",
+            "category": "Force of Law",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Backpack,Medium Armor Penetrating"
+        },
+        {
+            "name": "Epoch",
+            "descriptive-name": "PLAS-45 Epoch",
+            "description": "A powerful plasma weapon that fires one blast at a time, each blast exploding on impact. Must be charged to fire. Warning: do not overcharge.",
+            "category": "Control Group",
+            "sub-category": "Support Weapons",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "",
+            "call-in-time": 7.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Explosive,Heavy Armor Penetrating,Chargeup"
+        },
+        {
+            "name": "Laser Sentry",
+            "descriptive-name": "A/LAS-98 Laser Sentry",
+            "description": "A turret firing powerful and precise laser beams. Warning: overloading heat sink may cause  adverse effects.",
+            "category": "Control Group",
+            "sub-category": "Sentry",
+            "type": "Defensive",
+            "price": 0,
+            "level": 0,
+            "code": "",
+            "call-in-time": 4.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod,Heavy Armor Penetrating,Heat,Beam"
+        },
+        {
+            "name": "Warp Pack",
+            "descriptive-name": "LIFT-182 Warp Pack",
+            "description": "A Dark Fluid-powered backpack that generates a portable micro-wormhole. This safe and well-understood technology allows the wearer to warp short distances. Warning: do not use while pack is  overloaded.",
+            "category": "Control Group",
+            "sub-category": "Backpack",
+            "type": "Supply",
+            "price": 0,
+            "level": 0,
+            "code": "",
+            "call-in-time": 9.75,
+            "uses": -1,
+            "cooldown-time": 480,
+            "traits": "Hellpod"
         }
     ],
     "Boosters": [
@@ -2095,6 +2231,13 @@
             "effect": "Large enemies now have a small chance of dropping Samples on death. Capped at 10 drops per mission.",
             "price": 65,
             "category": "Borderline Justice",
+            "premium": true
+        },
+        {
+            "name": "Stun Pods",
+            "effect": "Exposes Hellpod wiring upon surface contact, stunning any units in the vicinity of the drop site.",
+            "price": 55,
+            "category": "Force of Law",
             "premium": true
         }
     ],
